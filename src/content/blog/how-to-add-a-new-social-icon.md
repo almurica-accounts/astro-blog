@@ -122,7 +122,3 @@ export const SOCIALS: SocialObjects = [
 > Ensure that `href` and `linkTitle` are updated for the corresponding link and label.
 
 Full code for the above steps can be found in [this pull request](https://github.com/satnaing/astro-paper/pull/216/files)
-
-&nbsp;
-
-<script>console.log('test')</script>
