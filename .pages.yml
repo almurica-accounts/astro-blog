@@ -8,8 +8,6 @@ content:
     label: Posts
     type: collection
     path: src/content/blog
-    # Restrict this collection to specific roles
-    roles: [admin, editor]
     view:
       fields: [title, draft, pubDatetime]
     fields:
@@ -72,8 +70,6 @@ content:
     label: Site Settings
     type: file
     path: src/data/settings.json
-    # Only Admins can see or edit global site configuration
-    roles: [admin]
     fields:
       - { name: siteTitle, label: Site Title, type: string }
       - { name: description, label: Meta Description, type: string }
